@@ -1,3 +1,50 @@
-body p{
-    color: rgb(237, 13, 36);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  scrollbar-width: 12px;
+  scrollbar-color: rgb(0, 255, 89);
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  width: 12px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 22px;
+}
+
+header {
+  height: 60px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+header #logo {
+   
+  margin-left: 23px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#abrirMenu {
+  display: none;
+}
+#fechaMenu {
+  display: none;
+}
+nav {
+  flex-wrap: wrap;
+  background-color: blue;
+  width: 90vw;
+  display: flex;
+ justify-content: center;
+ gap: 9rem;
+ 
 }
