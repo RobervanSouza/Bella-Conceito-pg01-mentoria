@@ -7,7 +7,7 @@
 
         body,
         header,
-        nav,
+  
         main,
         aside,
         footer {
@@ -23,27 +23,30 @@
         }
 
         header {
-            height: 100px;
+            height: 50px;
             flex: 1 1 100vw;
             background-color: aquamarine;
+            margin-bottom: 13px;
         }
         header #logo{
             flex: 0 1 200px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
         }
 
         nav {
-            height: 100px;
-            flex: 1 1 100vw;
-            background-color: rgb(198, 255, 196);
-            align-items: center;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-            flex-direction: column;
-            
+       
+           width: 80vw;
+           display: flex;
+           justify-content: flex-end;
+           align-items: center;
+           
         }
+       
 
         main {
-            height: calc(100vh - 224px);
+            height: calc(100vh - 124px);
             flex: 20 1 330px;
             background-color: brown;
             overflow: auto;
@@ -56,13 +59,14 @@
         }
 
         aside {
-
-            flex: 1 1 200px;
+            display: flex;
+            justify-content: center;
+            flex: 1 1 90px;
             background-color: cadetblue;
         }
 
         footer {
-            height: 100px;
+            height: 40px;
             flex: 1 1 100vw;
             background-color: darkgoldenrod;
         }
@@ -85,12 +89,14 @@
                 order: 3;
             }
         }
+
        nav a{
             text-decoration: none;
             color: black;
-            margin: 5%;
-            font-size: 34px;
-           
+            padding: 22px;
+            font-size: 24px;
+            
+          
         }
         #abrirMenu, #fechaMenu{
             border: none;
@@ -101,7 +107,7 @@
             cursor: pointer;
             display: none;
         }
-        @media only screen and (max-width: 717px) {
+        @media only screen and (max-width: 745px) {
             #abrirMenu, #fechaMenu{
                 display: block;
             }
