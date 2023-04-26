@@ -22,11 +22,6 @@ fecha.addEventListener('click', () =>{
 })
 
 
-
-
-
-
-
 const cuecaLink = document.getElementById("cueca");
 const camisaLink = document.getElementById("camisa");
 const shortsLink = document.getElementById("shorts");
@@ -51,27 +46,3 @@ shortsLink.addEventListener("click", function () {
     conteudoCamisa.style.display = "none";
     conteudoShorts.style.display = "block";
 });
-
-
-
-
-// const cuecaLink = document.querySelector('#conteudo h2');
-// const camisaDiv = document.querySelector('#conteudo-camisa');
-// const shortsDiv = document.querySelector('#conteudo-shorts');
-
-// cuecaLink.addEventListener('click', () => {
-//     camisaDiv.style.display = 'none';
-//     shortsDiv.style.display = 'none';
-// });
-
-// const camisaLink = document.querySelector('#conteudo-camisa h1');
-// camisaLink.addEventListener('click', () => {
-//     camisaDiv.style.display = 'block';
-//     shortsDiv.style.display = 'none';
-// });
-
-// const shortsLink = document.querySelector('#conteudo-shorts h1');
-// shortsLink.addEventListener('click', () => {
-//     camisaDiv.style.display = 'none';
-//     shortsDiv.style.display = 'block';
-// });
