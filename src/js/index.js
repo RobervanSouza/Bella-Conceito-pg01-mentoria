@@ -20,81 +20,65 @@ fecha.addEventListener('click', () =>{
         menu.removeAttribute('style');
     }, 200)
 })
-//4//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// 3 feminino navegação
-const calca = document.getElementById("calca");
-const shorts = document.getElementById("shorts");
-const blusas = document.getElementById("blusas");
-const conjuntos= document.getElementById("conjuntos");
-const calcinhas = document.getElementById("calcinhas");
-const cropped = document.getElementById("cropped");
-// 3 feminino main cards
-const conteudoCalca = document.getElementById("conteudo-calca");
-const conteudoShorts = document.getElementById("conteudo-shorts");
-const conteudoBlusas = document.getElementById("conteudo-blusas");
-const conteudoConjuntos = document.getElementById("conteudo-conjuntos");
-const conteudoCalcinhas = document.getElementById("conteudo-calcinhas");
-const conteudoCropped = document.getElementById("conteudo-cropped");
-// 3 feminino logica 
-// Define as constantes com os elementos de navegação e de conteúdo
-const elementosDeNavegacao = [ calca, shorts, blusas, conjuntos, calcinhas, cropped ];
-const elementosDeConteudo = [ conteudoCalca, conteudoShorts, conteudoBlusas, conteudoConjuntos, conteudoCalcinhas, conteudoCropped ];
-// Chama a função para adicionar listeners de clique aos elementos de navegação
-adicionarCliqueFeminino(elementosDeNavegacao, elementosDeConteudo);
-// Função para mostrar o conteúdo ativo e esconder os demais
-function mostrarConteudoFeminino(conteudoAtivoIndex, elementosDeConteudo) {
-    for (let i = 0; i < elementosDeConteudo.length; i++) {
-        if (i === conteudoAtivoIndex) {
-            // Mostra o elemento de conteúdo ativo
-            elementosDeConteudo[ i ].style.display = "block";
-        } else {
-            // Esconde os demais elementos de conteúdo
-            elementosDeConteudo[ i ].style.display = "none";
-        }
-    }
-}
-function adicionarCliqueFeminino(elementosDeNavegacao, elementosDeConteudo) {
-    for (let i = 0; i < elementosDeNavegacao.length; i++) {
-        elementosDeNavegacao[ i ].addEventListener("click", function () {
-            // Chama a função para mostrar o conteúdo ativo
-            mostrarConteudoFeminino(i, elementosDeConteudo);
-        });
-    }
-}
-//4////////////////////////////////////////////////////////////////////
+
+
+
+abrir.addEventListener('click', () => {
+    menu.classList.add('aberto');
+    // resto do seu código
+});
+
+
+//4////////////////// PAGINA FEMININO/////////////////////////////////////////////////////////////////////////////////////
+
+//4////////////// PAGINA PLUS//////////////////////////////////////////////////////
 //3 plus size navegação
-const bluasPlus = document.getElementById("blusasPlusSize");
-const calcaPlus = document.getElementById("calcaPlusSize");
-const shortsPlus= document.getElementById("shortsPlusSize");
-const vestidoPlus = document.getElementById("vestidoPlusSize");
-const lingeriePlus = document.getElementById("lingeriePlusSize");
+const todasPlus = [...document.querySelectorAll(".plus")]
 //3 cards plus size
-const plusBlusas = document.getElementById("plus-blusas");
-const plusCalca = document.getElementById("plus-calca");
-const plusShorts = document.getElementById("plus-shorts");
-const plusVestidos = document.getElementById("plus-vestidos");
-const plusLingerie= document.getElementById("plus-lingerie");
+const todoConteudos = [ ...document.querySelectorAll(".plus-conteudo")]
 //3 logica
 // Define as constantes com os elementos de navegação e de conteúdo
-const navegacaoPlus = [ bluasPlus, calcaPlus, shortsPlus, vestidoPlus, lingeriePlus ];
-const conteudoPlus = [ plusBlusas, plusCalca, plusShorts, plusVestidos, plusLingerie];
+const navegacaoPlus = todasPlus;
+const conteudoPlus = todoConteudos;
+
+//3 navegação masculino
+const navegacaoMasculino = [ ...document.querySelectorAll(".navegaMasculino") ]
+//3 cards plus size
+const cardsMasculino = [ ...document.querySelectorAll(".cardsMasculino") ]
+//3 logica
+// Define as constantes com os elementos de navegação e de conteúdo
+const navegaMaculino = navegacaoMasculino;
+const cardsMasculinoTodos = cardsMasculino;
+// 3 feminino navegação
+const navegacaoFeminina = [ ...document.querySelectorAll(".feminino") ];
+// 3 feminino main cards
+const cardsFeminina = [ ...document.querySelectorAll(".cardsFeminino") ];
+// 3 feminino logica 
+// Define as constantes com os elementos de navegação e de conteúdo
+const elementosDeNavegacao = navegacaoFeminina;
+const elementosDeConteudo = cardsFeminina;
+// Chama a função para adicionar listeners de clique aos elementos de navegação
+adicionarCliquePlus(elementosDeNavegacao, elementosDeConteudo,);
+// Função para mostrar o conteúdo ativo e esconder os demais
 adicionarCliquePlus(navegacaoPlus, conteudoPlus);
+adicionarCliquePlus(navegaMaculino, cardsMasculinoTodos);
+
 function mostrarConteudoplus(conteudoAtivoPlus, conteudoPlus) {
-    for (let p = 0; p < conteudoPlus.length; p++) {
-        if (p === conteudoAtivoPlus) {
-            
-         conteudoPlus[ p ].style.display = "block";
+    for (let i = 0; i < conteudoPlus.length; i++) {
+        if (i === conteudoAtivoPlus) {
+
+            conteudoPlus[ i ].style.display = "block";
         } else {
-            
-         conteudoPlus[ p ].style.display = "none";
+
+            conteudoPlus[ i ].style.display = "none";
         }
     }
 }
 function adicionarCliquePlus(navegacaoPlus, conteudoPlus) {
-    for (let p = 0; p < navegacaoPlus.length; p++) {
-        navegacaoPlus[ p ].addEventListener("click", function () {
+    for (let i = 0; i < navegacaoPlus.length; i++) {
+        navegacaoPlus[ i ].addEventListener("click", function () {
             // Chama a função para mostrar o conteúdo ativo
-            mostrarConteudoplus(p, conteudoPlus);
+            mostrarConteudoplus(i, conteudoPlus);
         });
     }
 }
