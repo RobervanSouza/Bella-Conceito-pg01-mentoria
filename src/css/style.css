@@ -36,14 +36,18 @@
         }
 
         nav {
-       
            width: 80vw;
            display: flex;
            justify-content: flex-end;
-           align-items: center;
-           
+           align-items: center;          
         }
-       
+        
+       nav a{
+            text-decoration: none;
+            color: black;
+            padding: 22px;
+            font-size: 24px; 
+        }
 
         main {
             height: calc(100vh - 124px);
@@ -60,11 +64,16 @@
 
         aside {
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;           
             flex: 1 1 90px;
             background-color: cadetblue;
+            
+            
         }
-
+        aside ul li {
+        margin-bottom: 20px;
+        margin-top: 23px;
+        }
         footer {
             height: 40px;
             flex: 1 1 100vw;
@@ -90,14 +99,6 @@
             }
         }
 
-       nav a{
-            text-decoration: none;
-            color: black;
-            padding: 22px;
-            font-size: 24px;
-            
-          
-        }
         #abrirMenu, #fechaMenu{
             border: none;
             background: none;
