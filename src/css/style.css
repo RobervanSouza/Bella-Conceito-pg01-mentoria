@@ -1,208 +1,223 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-       
-
-        body,
-        header,
-  
-        main,
-        aside,
-        footer {
-            display: flex;
-            margin: 3px;
-          
-        }
-
-        body {
-       
-            flex: 1 1 100vw;
-            flex-wrap: wrap;
-        }
-
-        header {
-            height: 50px;
-            flex: 1 1 100vw;
-            background-color: aquamarine;
-            margin-bottom: 13px;
-        }
-        header #logo{
-            flex: 0 1 200px;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-        }
-
-        nav {
-           width: 80vw;
-           display: flex;
-           justify-content: flex-end;
-           align-items: center;          
-        }
-        
-       nav a{
-            text-decoration: none;
-            color: black;
-            padding: 22px;
-            font-size: 24px; 
-        }
-
-        main {
-            height: calc(100vh - 124px);
-            flex: 20 1 330px;
-          
-            overflow: auto;
-        }
-        main section{
-            width: 100%;
-            height: 2000px;
-            margin: 10px;
-        
-        }
-
-        aside {
-            display: flex;
-            justify-content: space-evenly;           
-            flex: 1 1 90px;
-            background-color: cadetblue;
-            
-            
-        }
-        aside ul li {
-        margin-bottom: 20px;
-        margin-top: 23px;
-        }
-        footer {
-            height: 40px;
-            flex: 1 1 100vw;
-            background-color: darkgoldenrod;
-        }
-
-        @media only screen and (max-width: 935px) {
-            header{
-                order: 0;
-            }
-            margin {
-                height: calc(100vh - 330px);
-                order:1 ;
-            }
-
-            aside {
-                flex: 1 1 100vw;
-                height: 100px;
-                order: 2;
-            }
-            footer{
-                order: 3;
-            }
-        }
-
-        #abrirMenu, #fechaMenu{
-            border: none;
-            background: none;
-            font-size: 30px;
-            font-weight: bold;
-            padding: 0px 5px 0px 0px ;
-            cursor: pointer;
-            display: none;
-        }
-        @media only screen and (max-width: 745px) {
-            #abrirMenu, #fechaMenu{
-                display: block;
-            }
-            
-            #abrirMenu{
-                margin-left: auto;
-            }
-
-            #fechaMenu{
-                position: fixed;
-                right: 15px;
-                top: 15px;
-            }
-            nav{
-                position: fixed;
-                flex-direction: column;
-                width: 100vw;
-                height: 100vh;
-                align-items: center;
-                justify-content: center;
-                margin: 0;
-                display: none;
-                opacity: 0;
-                transition: 0.5s;
-            }
-        }
-/* ############################### plus #########################*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Titulo h2 */
-h2 {
-    font-size: 1.5rem;
+body,
+header,
+main,
+aside,
+footer {
+  display: flex;
+  margin: 3px;
 }
 
-.conteudos{
+body {
+  flex: 1 1 100vw;
+  flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/vetores-premium/padrao-sem-emenda-desenhado-a-mao-plana-vetorial_637178-434.jpg?size=626&ext=jpg&ga=GA1.1.1220424543.1671232440&semt=robertav1_2_sidr");
+}
+
+header {
+  height: 50px;
+  flex: 1 1 100vw;
+  
+  margin-bottom: 13px;
+}
+header #logo {
+  flex: 0 1 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+nav {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 22px;
+  font-size: 24px;
+}
+
+main {
+  height: calc(100vh - 124px);
+  flex: 20 1 330px;
+
+  overflow: auto;
+}
+main section {
+  width: 100%;
+  height: 2000px;
+  margin: 10px;
+}
+
+aside {
+  background-image: linear-gradient(to bottom, #e79494, #3e7a3e, #6c6cc5);
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 150px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  margin: 0;
+  padding: 5px;
+}
+
+aside a {
+    font-size: 24px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+
+aside a:hover {
+  color: white;
+}
+
+
+footer {
+  height: 40px;
+  flex: 1 1 100vw;
+  background-color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 935px) {
+  header {
+    order: 0;
+  }
+  margin {
+    height: calc(100vh - 330px);
+    order: 1;
+  }
+
+  aside {
+    flex: 1 1 100vw;
+    height: 100px;
+    order: 2;
+  }
+  footer {
+    order: 3;
+  }
+}
+
+#abrirMenu,
+#fechaMenu {
+  border: none;
+  background: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 5px 0px 0px;
+  cursor: pointer;
+  display: none;
+}
+@media only screen and (max-width: 745px) {
+  #abrirMenu,
+  #fechaMenu {
+    display: block;
+  }
+
+  #abrirMenu {
+    margin-left: auto;
+  }
+
+  #fechaMenu {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+  }
+  nav {
+    position: fixed;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
-    
-    min-width: 80vw;
-    display: flex;
     justify-content: center;
-    height: min-content;
-    flex-wrap: wrap;
+    margin: 0;
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+  }
+}
+/* ############################### plus #########################*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .card {
-    flex: 0 1 230px;
-    width: 280px;
-    height: 400px;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 8px;
-    background: #222;
-    border: 5px solid #444;
-    box-shadow: 0 0 5px #222;
-    color: #191919;
-    font-size: 0.95rem;
-    user-select: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  background-image: url("https://img.freepik.com/fotos-premium/textura-da-parede-plano-de-fundo-texturizado-cinza-abstrato_262730-1914.jpg");
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 10px;
+  margin-bottom: 2rem;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+  cursor: pointer;
 }
 
-.card img {
-    width: 100%;
-    height: 100px;
-    border-radius: 8px;
-    border: 5px solid #444;
-    margin-bottom: 1rem;
-    object-fit: cover;
-    object-position: top;
-    user-select: none;
+.foto {
+  width: 70%;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid rgb(243, 237, 237);
 }
 
-.card h3, .card h2 {
-    background: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 0.625rem;
-    text-align: center;
-    user-select: none;
+
+
+.costas {
+  display: none;
+}
+.card:hover .foto {
+  display: none;
+}
+.card:hover .costas {
+  display: block;
+
+  width: 70%;
+  height: 250px;
+  object-fit: cover;
 }
 
-.card h2 {
-    font-size: 1.1rem;
-    height: 3.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nome {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tamanho {
+  font-size: 16px;
+  margin-top: 10px;
+  color: blue;
+}
+
+.preco {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #f00;
+  font-weight: bold;
 }
