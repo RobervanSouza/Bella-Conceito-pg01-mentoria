@@ -208,8 +208,9 @@ navegacaoMeninoLinks.forEach(link => {
         // Cria constantes para os elementos que devem ser ocultados quando um link masculino for clicado
         const oculta1 = document.querySelectorAll('.bebe');
         const menina = document.querySelectorAll('.menina');
+        const conteudoprincipal = document.querySelectorAll('.conteudo-principal');
         // Utiliza o spread operator para juntar os elementos de ambas as constantes e itera sobre eles
-        [ ...oculta1, ...menina ].forEach(element => {
+        [ ...oculta1, ...menina, ...conteudoprincipal ].forEach(element => {
             // Define o display dos elementos como "none" para ocultá-los
             element.style.display = 'none';
         });
@@ -220,7 +221,8 @@ navegacaoMeninaLinks.forEach(link => {
     link.addEventListener('click', () => {
         const oculta1 = document.querySelectorAll('.bebe');
         const menino = document.querySelectorAll('.menino');
-        [ ...oculta1, ...menino ].forEach(element => {
+        const conteudoprincipal = document.querySelectorAll('.conteudo-principal');
+        [ ...oculta1, ...menino, ...conteudoprincipal ].forEach(element => {
             element.style.display = 'none';
         });
     });
@@ -228,12 +230,11 @@ navegacaoMeninaLinks.forEach(link => {
 
 navegacaoInfantilLinks.forEach(link => {
     
-    link.addEventListener('click', () => {
-      
+    link.addEventListener('click', () => {      
         const ocultaMenino = document.querySelectorAll('.menino');
         const ocultaMenina = document.querySelectorAll('.menina');
-        
-        [ ...ocultaMenino, ...ocultaMenina ].forEach(element => {
+        const conteudoprincipal = document.querySelectorAll('.conteudo-principal');
+        [ ...ocultaMenino, ...ocultaMenina, ...conteudoprincipal].forEach(element => {
             
             element.style.display = 'none';
         });

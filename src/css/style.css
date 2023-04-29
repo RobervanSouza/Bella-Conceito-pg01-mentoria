@@ -54,8 +54,9 @@ main {
 }
 main section {
   width: 100%;
-  height: 2000px;
+  height: min-content;
   margin: 10px;
+  
 }
 
 aside {
@@ -220,4 +221,60 @@ footer {
   margin-top: 10px;
   color: #f00;
   font-weight: bold;
+}
+
+/* ####################  home   ##############################*/
+
+
+
+
+
+
+
+
+.container-geral {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.card-home{
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  width: 134px;
+  height: 154px;
+}
+
+.foto-home{
+  margin-top: 9px;
+  width: 113px;
+  height: 103px;
+}
+
+.container-home1,
+.container-home2,
+.container-home3,
+.container-home4 {
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  background-color: #6c6cc5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .container-home1,
+  .container-home2,
+  .container-home3,
+  .container-home4 {
+    flex-basis: calc(100% - 20px);
+  }
 }
