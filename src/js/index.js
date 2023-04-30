@@ -249,3 +249,64 @@ navegacaoInfantilLinks.forEach(link => {
 // Em seguida, a função utiliza o spread operator para juntar os elementos de ambas as constantes em um único array e itera sobre eles com o forEach.Para cada elemento, o código define o valor da propriedade display como "none", o que faz com que o elemento seja ocultado.Dessa forma, quando um link masculino é clicado, todos os elementos com as classes "bebe" e "menina" são ocultados.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ <section class="container-home1">
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://image.yfswebstatic.com/fit-in/950x950/origin/product/000010002027/63fc4d821acf8.jpg"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto Bebe</h2>
+            </div>
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://img.panoramasistemas.com.br/babeinolook.img/produto/3190/conjunto-infantil-menino-gody-bicolor-caramelo-3190-tiny.webp"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto menino</h2>
+            </div>
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto menina</h2>
+            </div>
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto menina</h2>
+            </div>
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto menina</h2>
+            </div>
+            <div class="card-home">
+                <img class='foto-home'
+                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
+                    alt="Foto" />
+                <h2 class='nome-home'>Conjunto menina</h2>
+            </div>
+    <button class="prev-button">Anterior</button>
+    <button class="next-button">Próximo</button>
+        </section>
+        */
