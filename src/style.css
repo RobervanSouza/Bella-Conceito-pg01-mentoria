@@ -19,6 +19,16 @@ body {
     background-image: url("https://img.freepik.com/vetores-premium/padrao-sem-emenda-desenhado-a-mao-plana-vetorial_637178-434.jpg?size=626&ext=jpg&ga=GA1.1.1220424543.1671232440&semt=robertav1_2_sidr");
 }
 
+#logo {
+  color: #333;
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #f00;
+}
+
 header {
   height: 50px;
   flex: 1 1 100vw;
@@ -137,8 +147,8 @@ footer {
     header {
     order: 0;
   }
-  margin {
-   
+  main {
+    height: 100%;
     order: 1;
   }
 
@@ -150,7 +160,7 @@ footer {
   }
   footer {
     order: 3;
-    margin-top: 59%;
+    margin-top: 2%;
   }
   #abrirMenu {
     margin-left: auto;
