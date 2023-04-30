@@ -247,3 +247,5 @@ navegacaoInfantilLinks.forEach(link => {
 // Quando o link é clicado, a função de callback é executada.Ela cria duas constantes que contêm os elementos que devem ser ocultados quando um link masculino for clicado: oculta1, que contém os elementos com a classe "bebe", e menina, que contém os elementos com a classe "menina".
 
 // Em seguida, a função utiliza o spread operator para juntar os elementos de ambas as constantes em um único array e itera sobre eles com o forEach.Para cada elemento, o código define o valor da propriedade display como "none", o que faz com que o elemento seja ocultado.Dessa forma, quando um link masculino é clicado, todos os elementos com as classes "bebe" e "menina" são ocultados.
+
+
