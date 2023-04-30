@@ -1,3 +1,11 @@
 {
-  "routes": [{ "src": "/", "dest": "./src/html/index.html" }]
+  
+  "routes": [
+    { "src": "/masculino", "dest": "/masculino.html" },
+    { "src": "/feminino", "dest": "/feminino.html" },
+    { "src": "/infantil", "dest": "/infantil.html" },
+    { "src": "/plusSize", "dest": "/plusSize.html" }
+  ]
 }
+
+
