@@ -5,7 +5,10 @@
     { "src": "/feminino", "dest": "/feminino.html" },
     { "src": "/infantil", "dest": "/infantil.html" },
     { "src": "/plusSize", "dest": "/plusSize.html" }
+  ],
+  "builds": [
+    { "src": "*.html", "use": "@now/static" },
+    { "src": "./src/css/style.css", "use": "@now/static" },
+    { "src": "./src/js/index.js", "use": "@now/static" }
   ]
 }
-
-
