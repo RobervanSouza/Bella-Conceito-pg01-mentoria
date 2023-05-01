@@ -17,7 +17,6 @@ A loja online "Bella Conceito" é uma ótima opção para quem procura roupas de
 HTML
 CSS
 JavaScript
-Bootstrap
 jQuery
 
 
