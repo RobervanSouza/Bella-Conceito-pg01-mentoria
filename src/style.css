@@ -102,10 +102,25 @@ aside a:hover {
 
 
 footer {
+  background-color: #505450;
   height: 40px;
   flex: 1 1 100vw;
-  background-color: darkgoldenrod;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
 }
+
+
+footer a {
+  margin-top: 22rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 
 @media only screen and (max-width: 935px) {
  
