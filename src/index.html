@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touch/1.0.0/jquery.touch.min.js"></script>
 
     <title>Bella Conceito</title>
 </head>
@@ -119,21 +120,21 @@
                             <img class="img-desktop"
                                 src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/266/060/products/whatsapp-image-2022-12-27-at-15-55-56-11-4ab468ddcea811731d16721675464685-480-0.webp"
                                 alt="slide 1">
-                            <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+                           
                         </div>
 
                         <div class="slide-box">
                             <img class="img-desktop"
                                 src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/266/060/products/5d9ae186-70b5-4355-ad3a-b4db8f56d66c1-d41f891870ffa4f58616698546965333-480-0.webp"
                                 alt="slide 3">
-                            <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+                         
                         </div>
 
                         <div class="slide-box">
                             <img class="img-desktop"
                                 src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/266/060/products/b9ed50cf-ddc3-44d5-b998-d0e3fa53b5931-53109cc2d48f55a92716698546964799-640-0.webp"
                                 alt="slide 3">
-                            <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+                            
                         </div>
 
                         <div class="nav-auto">
@@ -197,6 +198,8 @@
         </section>
     </main>
     <footer>@ Bella Conceito</footer>
+ 
+
     <script>
     const slides = [
         { radioId: 'radio1', imgNum: 1 },
@@ -281,6 +284,23 @@
             }, 200)
         })
 
+    $(document).ready(function () {
+        $('.slide-box').on('touchstart', function (event) {
+            var xClick = event.originalEvent.touches[ 0 ].pageX;
+            $(this).one('touchmove', function (event) {
+                var xMove = event.originalEvent.touches[ 0 ].pageX;
+                if (Math.floor(xClick - xMove) > 5) {
+                    $(this).carousel('next');
+                }
+                else if (Math.floor(xClick - xMove) < -5) {
+                    $(this).carousel('prev');
+                }
+            });
+            $('.slide-box').on('touchend', function () {
+                $(this).off('touchmove');
+            });
+        });
+    });
 
     </script>
 </body>

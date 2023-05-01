@@ -193,9 +193,8 @@ footer {
     display: block;
   }
   .slide-box {
-    max-width: 100%;
+    width: 100%;
     margin: 0;
-  
     align-items: center;
     justify-content: center;
     display: flex;
@@ -213,16 +212,12 @@ footer {
     .img-mobile{
         display: none;
     }
- .nav-auto, .nav-manual{
-      position: relative;
-     
-     height: 2px;
-    margin-left: 1rem;
-  
+      .slide-box img{
+    width: 4px;
+    height: 222px;
+    margin-top: 1.4rem;
     
-    }
-
-
+}
 }
 
 .cards-submenu {
@@ -392,6 +387,7 @@ section.slider{
     padding: 0 !important;
     overflow: hidden;
     position: relative;
+    
 }
 
 .slider-content{
@@ -413,7 +409,9 @@ section.slider{
 }
 
 .slide-box img{
-    width: 50%;
+    width: 60%;
+    height: 222px;
+    margin-top: 1.4rem;
     
 }
 .img-desktop{
@@ -422,15 +420,22 @@ section.slider{
 }
 .nav-manual, .nav-auto{
     position: absolute;
-    width: 30%;
-    margin-top: 31%;
+    width: 7rem;
+    height: 3rem;
+    z-index: 99;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 4px solid #020202;
-    padding: 10px;
+    border: 2px solid #020202;
+    width: 23px;
+    height: 23px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.9s;
