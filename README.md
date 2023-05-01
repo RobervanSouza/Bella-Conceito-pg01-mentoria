@@ -27,4 +27,4 @@ Olá, eu sou Robervan Souza, um estudante procurando emprego na área de desenvo
 # contato:
 [LinkedIn](https://www.linkedin.com/in/robervan-souza/)
 [E-mail](mailto:rob.robervan@hotmail.com)
-[Contato](tel:+5589994532058)
+tel:+5589994532058
