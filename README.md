@@ -24,6 +24,6 @@ JavaScript
 Olá, eu sou Robervan Souza, um estudante procurando emprego na área de desenvolvimento web. Atualmente estou buscando aprimorar minhas habilidades em programação e design de websites. Eu criei este site, Bella Conceito, como parte de um projeto de mentoria que estou participando. Espero que você goste do conteúdo e sinta-se à vontade para entrar em contato comigo se quiser saber mais sobre mim ou sobre o site.
 
 # contato:
-[LinkedIn](https://www.linkedin.com/in/robervan-souza/)
-[E-mail](mailto:rob.robervan@hotmail.com)
-tel:+5589994532058
+Linkedin: [LinkedIn](https://www.linkedin.com/in/robervan-souza/)
+Email: [E-mail](mailto:rob.robervan@hotmail.com)
+tel:  +5589994532058
