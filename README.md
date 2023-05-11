@@ -1,7 +1,7 @@
 # Link do Projeto: https://bella-conceito-pg01-mentoria.vercel.app/
 
 # Bella-Conceito-pg01-mentoria
-O site "Bella Conceito" foi desenvolvido como parte da mentoria "Conquiste sua vaga" e é uma loja virtual de roupas femininas, masculinas e infantil. A loja apresenta uma variedade de roupas, incluindo blusas, saias, vestidos, calças, shorts e ourtros modelos, todos cuidadosamente selecionados para atender aos gostos das clientes.
+O site "Bella Conceito" foi desenvolvido como parte da mentoria "Conquiste sua vaga" e é uma loja virtual de roupas femininas, masculinas e infantil. A loja apresenta uma variedade de roupas, incluindo blusas, saias, vestidos, calças, shorts e outros modelos, todos cuidadosamente selecionados para atender aos gostos das clientes.
 
 # Designer do site: 
 O design do site foi desenvolvido com foco na usabilidade, na experiência do usuário e na identidade visual da marca. A navegação do site é simples e intuitiva, permitindo que as clientes encontrem facilmente os produtos que estão procurando.
