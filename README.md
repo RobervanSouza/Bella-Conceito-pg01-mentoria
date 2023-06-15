@@ -10,9 +10,6 @@ O site é totalmente responsivo, o que significa que pode ser acessado de qualqu
 # Diferenciais no site: 
 A interface do site foi desenvolvida com um design moderno, utilizando as tecnologias HTML, CSS e JavaScript. Além disso, o site é responsivo e se adapta a diferentes dispositivos, proporcionando uma boa experiência para o usuário.
 
-# Sobre o site: 
-A loja online "Bella Conceito" é uma ótima opção para quem procura roupas de alta qualidade a preços acessíveis. Se você está em busca de peças de vestuário modernas e estilosas para atualizar o seu guarda-roupa, não deixe de conferir a loja virtual!
-
 ## Tecnologias utilizadas:
 HTML
 CSS
@@ -21,7 +18,7 @@ JavaScript
 
 
 ## Autor:
-Olá, eu sou Robervan Souza, desenvolvedor web. Atualmente estou buscando aprimorar minhas habilidades em programação e design de websites. Eu criei este site, Bella Conceito, como parte de um projeto de mentoria que estou participando. Espero que você goste do conteúdo e sinta-se à vontade para entrar em contato comigo se quiser saber mais sobre mim ou sobre o site.
+Olá, eu sou Robervan Souza, desenvolvedor web. Atualmente estou buscando aprimorar minhas habilidades em desenvolvimento e design de websites. Eu criei este site, Bella Conceito, como parte de um projeto de mentoria que estou participando. Espero que você goste do conteúdo e sinta-se à vontade para entrar em contato comigo se quiser saber mais sobre mim ou sobre o site.
 
 # contato:
 Linkedin: [LinkedIn](https://www.linkedin.com/in/robervan-souza/)
