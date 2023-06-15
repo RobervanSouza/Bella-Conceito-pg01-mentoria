@@ -28,7 +28,7 @@ abrir.addEventListener('click', () => {
     // resto do seu código
 });
 
-//3 ##################### CONTEUDO PLUS #################################
+// ##################### CONTEUDO PLUS #################################
 //3 plus size navegação
 const todasPlus = [...document.querySelectorAll(".plus")]
 //3 cards plus size
@@ -38,7 +38,7 @@ const todoConteudos = [ ...document.querySelectorAll(".plus-conteudo")]
 const navegacaoPlus = todasPlus;
 const conteudoPlus = todoConteudos;
 
-//5 ##################### CONTEUDO MASCULINO #################################
+// ##################### CONTEUDO MASCULINO #################################
 //5 navegação masculino
 const navegacaoMasculino = [ ...document.querySelectorAll(".navegaMasculino") ]
 //5 cards plus size
@@ -48,7 +48,7 @@ const cardsMasculino = [ ...document.querySelectorAll(".cardsMasculino") ]
 const navegaMaculino = navegacaoMasculino;
 const cardsMasculinoTodos = cardsMasculino;
 
-// 4 ##################### CONTEUDO FEMININO #################################
+//  ##################### CONTEUDO FEMININO #################################
 // 4 feminino navegação
 const navegacaoFeminina = [ ...document.querySelectorAll(".feminino") ];
 // 4 feminino main cards
@@ -58,7 +58,7 @@ const cardsFeminina = [ ...document.querySelectorAll(".cardsFeminino") ];
 const elementosDeNavegacao = navegacaoFeminina;
 const elementosDeConteudo = cardsFeminina;
 
-//6 ##################### CONTEUDO INFANTIL BEBE #################################
+// ##################### CONTEUDO INFANTIL BEBE #################################
 // 4 bebe navegação
 const navegacaoInfantil = [ ...document.querySelectorAll(".navegacaoInfantil") ];
 // 4 bebe main cards
@@ -68,7 +68,7 @@ const cardsInfantil = [ ...document.querySelectorAll(".bebe") ];
 const elementosInfantil = navegacaoInfantil;
 const ConteudoInfantil = cardsInfantil;
 
-//5 ##################### CONTEUDO INFANTIL MENINO #################################
+// ##################### CONTEUDO INFANTIL MENINO #################################
 // 4 menino navegação
 const navegacaoMenino = [ ...document.querySelectorAll(".navegacaoMenino") ];
 // 4 menino main cards
@@ -78,7 +78,7 @@ const cardsInfantilMasculino = [ ...document.querySelectorAll(".menino") ];
 const elementosInfantilMasculino = navegacaoMenino;
 const ConteudoInfantilMasculino = cardsInfantilMasculino;
 
-//5 ##################### CONTEUDO INFANTIL MENIMNA  #################################
+// ##################### CONTEUDO INFANTIL MENIMNA  #################################
 // 4 menina navegação
 const navegacaoMenina = [ ...document.querySelectorAll(".navegacaoMenina") ];
 // 4 menina main cards
@@ -247,66 +247,3 @@ navegacaoInfantilLinks.forEach(link => {
 // Quando o link é clicado, a função de callback é executada.Ela cria duas constantes que contêm os elementos que devem ser ocultados quando um link masculino for clicado: oculta1, que contém os elementos com a classe "bebe", e menina, que contém os elementos com a classe "menina".
 
 // Em seguida, a função utiliza o spread operator para juntar os elementos de ambas as constantes em um único array e itera sobre eles com o forEach.Para cada elemento, o código define o valor da propriedade display como "none", o que faz com que o elemento seja ocultado.Dessa forma, quando um link masculino é clicado, todos os elementos com as classes "bebe" e "menina" são ocultados.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
- <section class="container-home1">
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://image.yfswebstatic.com/fit-in/950x950/origin/product/000010002027/63fc4d821acf8.jpg"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto Bebe</h2>
-            </div>
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://img.panoramasistemas.com.br/babeinolook.img/produto/3190/conjunto-infantil-menino-gody-bicolor-caramelo-3190-tiny.webp"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto menino</h2>
-            </div>
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto menina</h2>
-            </div>
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto menina</h2>
-            </div>
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto menina</h2>
-            </div>
-            <div class="card-home">
-                <img class='foto-home'
-                    src="https://8399028l.ha.azioncdn.net/img/2022/09/produto/3574/0006-tpd-5336.jpg?ims=fit-in/96x96/filters:fill(white)"
-                    alt="Foto" />
-                <h2 class='nome-home'>Conjunto menina</h2>
-            </div>
-    <button class="prev-button">Anterior</button>
-    <button class="next-button">Próximo</button>
-        </section>
-        */
