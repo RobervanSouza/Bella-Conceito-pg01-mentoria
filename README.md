@@ -4,7 +4,7 @@
 O site "Bella Conceito" foi desenvolvido como parte da mentoria "Conquiste sua vaga" e é uma loja virtual de roupas femininas, masculinas e infantil. A loja apresenta uma variedade de roupas, incluindo blusas, saias, vestidos, calças, shorts e outros modelos.
 
 # Designer do site: 
-O design do site foi desenvolvido com foco na usabilidade, na experiência do usuário e na identidade visual da marca. A navegação do site é simples e intuitiva.
+O design do site foi desenvolvido com foco na usabilidade, na experiência do usuário. A navegação do site é simples e intuitiva.
 O site é totalmente responsivo, o que significa que pode ser acessado de qualquer dispositivo, incluindo desktops, tablets e smartphones
 
 # Diferenciais no site: 
