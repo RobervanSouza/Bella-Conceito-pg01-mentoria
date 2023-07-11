@@ -16,7 +16,7 @@ CSS
 JavaScript
 
 ## Autor:
-Olá, eu sou Robervan Souza, desenvolvedor web. Atualmente estou buscando aprimorar minhas habilidades em desenvolvimento e design de websites. Eu criei este site, Bella Conceito, como parte de um projeto de mentoria que estou participando. Espero que você goste do conteúdo e sinta-se à vontade para entrar em contato comigo se quiser saber mais sobre mim ou sobre o site.
+Robervan Souza
 
 # contato:
 Linkedin: [LinkedIn](https://www.linkedin.com/in/robervan-souza/)
