@@ -8,7 +8,7 @@ O design do site foi desenvolvido com foco na usabilidade, na experiência do us
 O site é totalmente responsivo, o que significa que pode ser acessado de qualquer dispositivo, incluindo desktops, tablets e smartphones
 
 # Diferenciais no site: 
-A interface do site foi desenvolvida com um design moderno, utilizando as tecnologias HTML, CSS e JavaScript.
+A interface do site foi desenvolvida utilizando as tecnologias HTML, CSS e JavaScript.
 
 ## Tecnologias utilizadas:
 HTML
